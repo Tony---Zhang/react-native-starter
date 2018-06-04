@@ -15,7 +15,8 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "react-native",
     ],
     "rules": {
         "indent": [
@@ -39,6 +40,8 @@ module.exports = {
         "arrow-parens": ["error", "as-needed"],
         "quote-props": ["error", "consistent"],
         "object-shorthand": ["error", "consistent"],
+        "import/no-unresolved": [2, { ignore: ['\.png$', '\.jpg$'] }],
+        "react-native/no-unused-styles": "error",
     },
     "globals": {
         "__DEV__": true

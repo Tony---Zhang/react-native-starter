@@ -93,4 +93,7 @@ export default API_HOST
 
 ```
 
+### Reference
+[《從0到100打造一個React Native boilerplate》](https://noootown.gitbooks.io/deeperience-react-native-boilerplate/content/Introduction/React%20Native%20&%20Boilerplate.html)
+
 Then you can build your own App on the basis of ReactNativeStarter! 🙌🏻
